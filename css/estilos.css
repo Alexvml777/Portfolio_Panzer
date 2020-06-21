@@ -2,6 +2,7 @@
 .navbar {
     margin-bottom: 0;
     border-radius: 0;
+    position: relative;
   }
   
   
@@ -22,3 +23,13 @@
     display: none; 
   }
 }    
+.foto3{
+    display: flex;
+    height: 450px;
+    text-align: center;
+}
+.legenda{
+    position: absolute;
+    top: 1450px;
+    left: 970px;
+}
