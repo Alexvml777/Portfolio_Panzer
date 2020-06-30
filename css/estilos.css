@@ -3,12 +3,14 @@
     margin-bottom: 0;
     border-radius: 0;
     position: relative;
+    width: 100%;
   }
   
-  
+
   footer {
     background-color: #f2f2f2;
-    padding: 25px;
+    padding: 25px; 
+        background-image: url("imagens/img_banner/alex-knight-Ys-DBJeX0nE-unsplash.jpg");
   }
   
 .carousel-inner img {
