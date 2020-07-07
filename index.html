@@ -20,11 +20,17 @@
     <!--Cabecalho Página-->
     <section class="bg-img">
       <!--MENU-->
-      <nav class="navbar navbar-expand-sm navbar-fixed-top navbar-dark">
+      <nav class="navbar navbar-expand-sm navbar-fixed-top navbar-dark media">
         <!--MENU-LOGO-->
-        <a class="navbar-brand" href="index.html" id="logo">
-          <img src="imagens/logo_Icones/Log_PanzerYTB.jpg" class="rounded-circle">
+        <a href="index.html" id="logo">
+          <img src="imagens/logo_Icones/Log_PanzerYTB.jpg" class="rounded-circle" style="width: 12vh;">
         </a>
+      <!--TESTE-->
+      <div class="media-body align-self-center d-flex justify-content-center">
+        <a class="neon" href="#">
+          <h1 style="font-size: 6vh;">PANZER</h1>
+          </a>
+        </div>
         <!--MENU (Mobile)-->
         <div id="mySidenav" class="sidenav">
           <!--Botão de Fechar o Menu-->
@@ -38,13 +44,13 @@
 
         </div>
         <!--Botão de Abrir o Menu--->
-        <button class="navbar-toggler" type="button" data-toggle="collapse">
-          <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        <button class="navbar-toggler align-self-center" type="button" data-toggle="collapse">
+          <span style="font-size:30px;cursor:pointer" class="neon" onclick="openNav()">&#9776;</span>
         </button>
         <!--MENU-Páginas-->
         <!--MENU (DESKTOP)-->
-        <div class="collapse navbar-collapse flex-row-reverse" id="Navbar">
-          <ul class="navbar-nav h4">
+        <div class="align-self-center" >
+          <ul class="navbar-nav nav h4 collapse navbar-collapse align-self-center" id="navbar">
             <li class="nav-item">
               <a class="nav-link" href="#">Ensaios</a>
             </li>
@@ -57,7 +63,6 @@
           </ul>
         </div> 
       </nav>
-      
     </section>
   <!--CONTENT-->
   <!--Caixas de TEXTO e FOTOS-->
